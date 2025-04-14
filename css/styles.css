@@ -275,6 +275,10 @@ button {
   font-style: normal;
 }
 
+.mob-contacts-list {
+  margin-bottom: 48px;
+}
+
 .mob-contacts-item:not(:last-child) {
   margin-bottom: 24px;
 }
@@ -293,9 +297,7 @@ button {
 
 .mob-soc-list {
   display: flex;
-  justify-content: center;
   gap: 40px;
-  padding-top: 48px;
 }
 
 .mob-soc-item {
@@ -406,15 +408,15 @@ button {
     margin-right: auto;
     margin-bottom: 36px;
   }
-}
 
-@media screen and (min-resolution: 2x) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero-tab@2x-min.jpg);
+  @media screen and (min-resolution: 2x) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-tab@2x-min.jpg);
+    }
   }
 }
 
@@ -433,15 +435,15 @@ button {
   .hero-title {
     margin-bottom: 48px;
   }
-}
 
-@media screen and (min-resolution: 2x) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero-desk@2x-min.jpg);
+  @media screen and (min-resolution: 2x) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-desk@2x-min.jpg);
+    }
   }
 }
 
@@ -969,6 +971,11 @@ button {
 
   .footer-logo-container {
     margin-right: 120px;
+    margin-bottom: 0;
+  }
+
+  .footer-soc-container {
+    margin-bottom: 0;
   }
 
   .footer-logo {
